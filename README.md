@@ -27,7 +27,15 @@
 
 <dl>
   <dt>Correspondence to:</dt>
-  <dd>Kerem Bingol, Ph.D., Pacific Northwest National Laboratory, Richland, Washington 99354, United States.</dd>
+  <dd>
+    <address>
+      Kerem Bingol, Ph.D.,<br/>
+      Pacific Northwest National Laboratory,<br/>
+      Richland,<br/>
+      Washington 99354,<br/>
+      United States.
+    </address>
+  </dd>
   
   <dt>Phone:</dt>
   <dd>
