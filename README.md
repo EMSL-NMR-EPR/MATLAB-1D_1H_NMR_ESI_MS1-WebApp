@@ -30,8 +30,12 @@
   <dd>Kerem Bingol, Ph.D., Pacific Northwest National Laboratory, Richland, Washington 99354, United States.</dd>
   
   <dt>Phone:</dt>
-  <dd>[509-371-7927](tel:+15093717927)</dd>
+  <dd>
+    <a href="tel:+15093717927">509-371-7927</a>
+  </dd>
   
   <dt>E-mail:</dt>
-  <dd>[kerem.bingol@pnnl.gov](mailto:kerem.bingol@pnnl.gov)</dd>
+  <dd>
+    <a href="mailto:kerem.bingol@pnnl.gov">kerem.bingol@pnnl.gov</a>
+  </dd>
 </dl>
