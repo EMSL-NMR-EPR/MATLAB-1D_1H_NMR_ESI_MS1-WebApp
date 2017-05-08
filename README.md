@@ -1,5 +1,11 @@
 # Unambiguous Metabolite Identification in High-throughput Metabolomics by Hybrid 1D 1H NMR/ESI MS1 Approach
 
+## Installation Guide
+
+1. Download and install [GlassFish Server](https://glassfish.java.net/) (see [here](https://glassfish.java.net/docs/4.0/installation-guide.pdf) for more information).
+2. Download and deploy the "Match_to_Chenomx.zip" archive file (see [here](https://docs.oracle.com/cd/E19798-01/821-1757/6nmni99aj/index.html) for more information).
+3. Done!
+
 ## How to cite this work
 
 ### Citation
