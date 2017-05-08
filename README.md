@@ -4,22 +4,24 @@
 
 ### Citation
 
-> Walker, L. R., Hoyt, D. W., Michael Walker, S. II, Ward, J. K., Nicora, C. D., and Bingol, K. (2016) Unambiguous Metabolite Identification in High-throughput Metabolomics by Hybrid 1D 1H NMR/ESI MS1 Approach. Magn. Reson. Chem., doi: [10.1002/mrc.4503](http://dx.doi.org/10.1002/mrc.4503).
+> Walker, L. R., Hoyt, D. W., Walker, S. M. II, Ward, J. K., Nicora, C. D., and Bingol, K. (2016) Unambiguous metabolite identification in high-throughput metabolomics by hybrid 1D 1H NMR/ESI MS1 approach. *Magn. Reson. Chem.*, **54**: 998–1003. doi: [10.1002/mrc.4503](http://dx.doi.org/10.1002/mrc.4503).
 
 ### BibTeX
 
 ```
 @article {MRC:MRC4503,
-  author = {Walker, Lawrence R. and Hoyt, David W. and Michael Walker, S. and Ward, Joy K. and Nicora, Carrie D. and Bingol, Kerem},
-  title = {Unambiguous Metabolite Identification in High-throughput Metabolomics by Hybrid 1D 1H NMR/ESI MS1 Approach},
-  journal = {Magnetic Resonance in Chemistry},
-  issn = {1097-458X},
-  url = {http://dx.doi.org/10.1002/mrc.4503},
-  doi = {10.1002/mrc.4503},
-  pages = {n/a--n/a},
-  keywords = {Metabolomics, Metabolite Identification, Human urine, Arabidopsis thaliana, Tomato, Hybrid 1D 1H NMR/ESI MS1},
-  year = {2016},
-  note = {MRC-16-0067.R1},
+author = {Walker, Lawrence R. and Hoyt, David W. and Walker, S. Michael and Ward, Joy K. and Nicora, Carrie D. and Bingol, Kerem},
+title = {Unambiguous metabolite identification in high-throughput metabolomics by hybrid 1D 1H NMR/ESI MS1 approach},
+journal = {Magnetic Resonance in Chemistry},
+volume = {54},
+number = {12},
+issn = {1097-458X},
+url = {http://dx.doi.org/10.1002/mrc.4503},
+doi = {10.1002/mrc.4503},
+pages = {998--1003},
+keywords = {metabolomics, metabolite identification, human urine, Arabidopsis thaliana, tomato, hybrid 1D 1H NMR/ESI MS1},
+year = {2016},
+note = {MRC-16-0067.R1},
 }
 ```
 
