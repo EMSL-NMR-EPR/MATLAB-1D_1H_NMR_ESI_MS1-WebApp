@@ -2,9 +2,20 @@
 
 ## Installation Guide
 
-1. Download and install [GlassFish Server](https://glassfish.java.net/) (see [here](https://glassfish.java.net/docs/4.0/installation-guide.pdf) for more information).
-2. Download and deploy the "Match_to_Chenomx.zip" archive file (see [here](https://docs.oracle.com/cd/E19798-01/821-1757/6nmni99aj/index.html) for more information).
-3. Done!
+### Prerequisites
+
+* GlassFish 4.1.2 requires **Java EE 7** (JDK 7 minimum).
+* Download the [Match_to_Chenomx.zip](https://github.com/EMSL-NMR-EPR/MATLAB-1D_1H_NMR_ESI_MS1-WebApp/blob/master/Match_to_Chenomx.zip) zip archive from this repository, and extract its contents.
+
+### Instructions
+
+1. Download GlassFish, either: [glassfish-4.1.2-web.zip](http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2-web.zip) or [glassfish-4.1.2.zip](http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2.zip).
+2. Install GlassFish (extract the contents of the zip archive): `unzip glassfish-4.1.2*zip`.
+3. Start GlassFish: `glassfish4/bin/asadmin start-domain`.
+4. Load the GlassFish console: Go to [http://localhost:4848](http://localhost:4848).
+5. On the "Common Tasks" page, under the "Deployment" heading, click the "Deploy an Application" link.
+6. In the "Deploy Application or Modules" form, under "Location", select the `dist/Match_to_Chenomx.war` file. Ensure that the "Type" is set to "Web Application". Finally, click the "OK" button at the bottom of the page.
+7. The "Match_to_Chenomx" application should now be listed in the table of "Deployed Applications" on the "Applications" page. Click the "Launch" button to receive a link to the deployed application (e.g., "http://localhost/Match_to_Chenomx").
 
 ## How to cite this work
 
