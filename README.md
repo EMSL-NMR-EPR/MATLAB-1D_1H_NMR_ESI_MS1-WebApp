@@ -9,13 +9,25 @@
 
 ### Instructions
 
-1. Download GlassFish, either: [glassfish-4.1.2-web.zip](http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2-web.zip) or [glassfish-4.1.2.zip](http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2.zip).
-2. Install GlassFish (extract the contents of the zip archive): `unzip glassfish-4.1.2*zip`.
-3. Start GlassFish: `glassfish4/bin/asadmin start-domain`.
-4. Load the GlassFish console: Go to [http://localhost:4848](http://localhost:4848).
-5. On the "Common Tasks" page, under the "Deployment" heading, click the "Deploy an Application" link.
-6. In the "Deploy Application or Modules" form, under "Location", select the `dist/Match_to_Chenomx.war` file. Ensure that the "Type" is set to "Web Application". Finally, click the "OK" button at the bottom of the page.
-7. The "Match_to_Chenomx" application should now be listed in the table of "Deployed Applications" on the "Applications" page. Click the "Launch" button to receive a link to the deployed application (e.g., "http://localhost/Match_to_Chenomx").
+The application is built with Java 8. So Java 8 runtime (JRE) must be installed
+1.	Download GlassFish, either: glassfish-4.1.2-web.zip or glassfish-4.1.2.zip.
+(I recommend Payara over Glassfish, Payara is actively getting bug fixes regularly, it is a derivation of Glassfish, so the interfaces between the two are identical mostly
+http://www.payara.fish/downloads, be sure to download the latest Full version)
+2.	Install GlassFish (extract the contents of the zip archive): unzip glassfish-4.1.2*zip.
+3.	Start GlassFish: glassfish4/bin/asadmin start-domain.
+4.	Load the GlassFish console: Go to http://localhost:4848.
+5.	If the login screen appears, enter the “admin” for the username, and nothing in the password box, this is the default, it can be changed inside the admin console.
+6.	On the "Common Tasks" page, under the "Deployment" heading, click the "Deploy an Application" link.
+Instructions for Payara
+1.	Click Applications
+2.	Click Deploy button
+3.	Select Packaged File to Be Uploaded to the Server option and Click Choose File button. Then locate and select Match_to_Chenomx.war file.
+4.	Select Web Application for the Type dropdown menu.
+5.	Enter metabolomics in Context Root box, this is mandatory because the application is configured to be discovered on http://host:port/metabolomics, 
+6.	Can optionally enter a descriptive name for the Application Name field or leave everything else as is.
+7.	In the "Deploy Application or Modules" form, under "Location", select the dist/Match_to_Chenomx.war file. Ensure that the "Type" is set to "Web Application". Finally, click the "OK" button at the bottom of the page.
+8.	The "Match_to_Chenomx" application should now be listed in the table of "Deployed Applications" on the "Applications" page. Click the "Launch" button to receive a link to the deployed application (e.g., "http://localhost/Match_to_Chenomx", http://localhost:8080/metabolomics).
+
 
 ## How to cite this work
 
