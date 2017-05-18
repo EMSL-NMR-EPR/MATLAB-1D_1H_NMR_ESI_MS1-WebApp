@@ -16,7 +16,7 @@ http://www.payara.fish/downloads, be sure to download the latest Full version)
 2.	Install GlassFish (extract the contents of the zip archive): unzip glassfish-4.1.2*zip.
 3.	Start GlassFish: glassfish4/bin/asadmin start-domain.
 4.	Load the GlassFish console: Go to http://localhost:4848.
-5.	If the login screen appears, enter the “admin” for the username, and nothing in the password box, this is the default, it can be changed inside the admin console.
+5.	If the login screen appears, enter the “admin” for the username, and nothing in the password box, this is the default, it can be changed inside the admin console. This Step is a MUST.
 6.	On the "Common Tasks" page, under the "Deployment" heading, click the "Deploy an Application" link.
 Instructions for Payara
 1.	Click Applications
